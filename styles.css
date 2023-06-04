@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #startScreen {
+    position: absolute;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    z-index: 1;
+  }
+  
+  canvas {
+    background-image: "images/background.jpg";
+    display: none;
+    position: relative;
+    width: 90%;
+    height: 90%;
+  }
+  
+  @keyframes backgroundAnimation {
+    from {
+      background-position-x: 0%;
+    }
+    to {
+      background-position-x: 100%;
+    }
+  }
